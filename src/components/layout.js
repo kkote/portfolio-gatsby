@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Intro from "./intro"
+import About from "./about"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -36,6 +37,7 @@ const Layout = ({ children }) => {
       >
         <Intro />
         <main>{children}</main>
+        <About />
         <footer
           style={{
             marginTop: `var(--space-5)`,
