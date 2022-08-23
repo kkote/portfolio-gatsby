@@ -14,7 +14,7 @@ const Skills = props => {
     return (
       <ul style={styles.lang}>
         {skillsUsed.map((item, i) => (
-          <li key={i}>{item} </li>
+          <li style={styles.langItem} key={i}>{item} </li>
         ))}
       </ul>
     )
@@ -27,15 +27,20 @@ const styles = {
     grid: {
 	    display: 'grid',
         alignItems: 'center',
-        gridTemplateColumns: 'repeat(3, 1fr)',
+        //gridTemplateColumns: 'repeat(3, 1fr)',
         gridTemplateRows: '8fr',
         gap: '1.2rem 1.2rem',
     },
     item: {
-        width: '100%',
+/*         width: '100%',
 	    height: '100%',
-	    overflow: 'hidden',
-	    boxShadow: '0 1px 6px 0 rgba(0, 0, 0, 0.11)',
+	    overflow: 'hidden',*/
+	    boxShadow: '0 1px 6px 0 rgba(0, 0, 0, 0.11)', 
+        display: 'flex',
+        flexDirection: 'column',
+        marginTop: '3rem',
+        maxWidth: '25rem',
+        width: '100%',
     },
     content: {
         display: 'flex',
@@ -56,13 +61,22 @@ const styles = {
 	    justifyContent: 'flex-end',
     },
     lang: {
-        display: 'inline-flex',
-        flexWrap: 'wrap',
+/*         display: 'inline-flex',*/
+
 	    width: '100%',
 	    justifyContent: 'flex-start',
 	    listStyleType: 'none',
 	    fontSize: '14px',
-        fontFamily: "'Questrial', sans-serif",
+        fontFamily: "'Questrial', sans-serif", 
+        display: 'flex',
+        flexWrap: 'wrap',
+        lineHeight: '1.2rem',
+        marginTop: '1.5rem',
+    },
+    langItem: {
+        marginRight: '15px',
+		marginBottom: '0px',
+		color: '#333f58',
     },
     card: {
         padding: '1rem',
@@ -112,7 +126,7 @@ const Projects = () => (
       <div key={link.name}  style={styles.item} >
         <div style={styles.card}>
           <div style={styles.content}>
-            <div>
+            
               <div style={styles.icons}>
               {link.demoUrl ? (
                 <a style={styles.aProject}  href={link.demoUrl} target="_blank" rel="noopener noreferrer" >
@@ -125,13 +139,8 @@ const Projects = () => (
 
               <h4>{link.name}</h4>
               <p>{link.description}</p>
-            </div>
+            
             <div>
-              {/* <ul style={styles.lang}>
-                {links.skills.map((item, i) => (
-                  <li key={i}>{item} </li>
-                ))}
-              </ul> */}
               <Skills skills={link.skills} />
             </div> 
           </div>

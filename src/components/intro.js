@@ -25,20 +25,21 @@ const styles = {
         flex      : "1",
         fontFamily: "'Nunito Sans',sans-serif"
     },
+    lineOne: {
+        marginBottom: "2rem"
+    }
 };
 
 const Intro = () => (
     <section style={styles.section}>
         <div style={styles.wrapper}>
             <div style={styles.details}>
-                <h1>Hi, </h1>
-                <h1>I'm Kate.</h1>
+                <h1 style={styles.lineOne}>Hi, </h1>
+                <h1 style={styles.lineOne}>I'm Kate.</h1>
                 <h2>A Python & JavaScript developer.</h2>
-                <h3>
-                    <p>
-                        I build automated tests, develop front-end web apps, and script data solutions.
-                    </p>
-                </h3>
+                <p>
+                    I build automated tests, develop front-end web apps, and script data solutions.
+                </p>
             </div>
         </div>
     </section>
