@@ -5,6 +5,20 @@ import {
     Wrapper,IntroWrapper,Details,FirstLine,SecondLine,ThirdLine,FourthLine,Contact,
 } from './intro' */
 import githubIcon from '../assets/github.svg'
+import openIcon from '../assets/open_in_browser-24px.svg'
+
+const Skills = props => {
+    const projectName = props.skills
+    const skillsUsed = props.skills || ['HTML', 'CSS', 'Bootstrap']
+  
+    return (
+      <ul style={styles.lang}>
+        {skillsUsed.map((item, i) => (
+          <li key={i}>{item} </li>
+        ))}
+      </ul>
+    )
+  }
 
 const styles = {
     wrapper: {
@@ -67,18 +81,21 @@ const links = [
   {
     name: "Portfolio-v2",
     url: "https://github.com/kkote/portfolio-v2",
+    demoUrl: "https://github.com/kkote/weather-app",
     description: "links, demos, languages used on projects",
     skills: ["React", "Gatsby", "GraphQL", "GitHub API"],
   },
   {
     name: "Library-react",
     url: "https://github.com/kkote/library-react",
+    demoUrl: "https://github.com/kkote/weather-app",
     description: "Catalog your books",
     skills: ["JavaScript", "React", "Google Books API"],
   },
   {
     name: "Weather-app",
     url: "https://github.com/kkote/weather-app",
+    demoUrl: "https://github.com/kkote/weather-app",
     description: "Temperature based apparel suggestions ",
     skills: ["JavaScript", "React", "Open Weather API", "Material-UI"],
   },
@@ -97,6 +114,10 @@ const Projects = () => (
           <div style={styles.content}>
             <div>
               <div style={styles.icons}>
+              {link.demoUrl ? (
+                <a style={styles.aProject}  href={link.demoUrl} target="_blank" rel="noopener noreferrer" >
+                    <img style={styles.imgProject} src={openIcon} alt="Open Icon" />
+                </a>) : ( <a href="" /> )}
                 <a style={styles.aProject} href={link.url} target="_blank" rel="noopener noreferrer">
                    <img style={styles.imgProject} src={githubIcon} alt="GitHub Icon" /> 
                 </a>
@@ -105,13 +126,14 @@ const Projects = () => (
               <h4>{link.name}</h4>
               <p>{link.description}</p>
             </div>
-            {/* <div>
-              <ul style={styles.lang}>
+            <div>
+              {/* <ul style={styles.lang}>
                 {links.skills.map((item, i) => (
                   <li key={i}>{item} </li>
                 ))}
-              </ul>
-            </div> */}
+              </ul> */}
+              <Skills skills={link.skills} />
+            </div> 
           </div>
         </div>
       </div>
