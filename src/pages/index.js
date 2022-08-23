@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Projects from "../components/projects"
 import * as styles from "../components/index.module.css"
 
 const links = [
@@ -43,7 +44,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <ul className={styles.list}>
+    {/* <ul className={styles.list}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
           <a
@@ -56,7 +57,8 @@ const IndexPage = () => (
           <p>{link.skills}</p>
         </li>
       ))}
-    </ul>
+    </ul> */}
+    
   </Layout>
 )
 
