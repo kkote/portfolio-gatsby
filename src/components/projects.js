@@ -4,6 +4,7 @@ import { Container, Button } from 'components/common'
 import {
     Wrapper,IntroWrapper,Details,FirstLine,SecondLine,ThirdLine,FourthLine,Contact,
 } from './intro' */
+import githubIcon from '../assets/github.svg'
 
 const styles = {
     wrapper: {
@@ -27,6 +28,14 @@ const styles = {
 	    flexDirection: 'column',
 	    justifyContent: 'space-between',
 	    height: '100%',
+    },
+    imgProject: {
+        height: '30px',
+		width: '30px',
+		filter: 'saturate(100%) hue-rotate(-75deg)',
+    },
+    aProject: {
+        paddingRight: '.5rem',
     },
     icons: {
         display: 'flex',
@@ -88,8 +97,8 @@ const Projects = () => (
           <div style={styles.content}>
             <div>
               <div style={styles.icons}>
-                <a href={link.url} target="_blank" rel="noopener noreferrer">
-                  {/* <img src={githubIcon} alt="GitHub Icon" /> */}
+                <a style={styles.aProject} href={link.url} target="_blank" rel="noopener noreferrer">
+                   <img style={styles.imgProject} src={githubIcon} alt="GitHub Icon" /> 
                 </a>
               </div>
 
