@@ -86,11 +86,11 @@ const styles = {
     projectName: {
       margin: '0px 0px 10px',
       color: 'var(--lightest-slate)',
-      fontSize: '20px',
+      fontSize: '17px',
     },
     projectDesc: {
       color: 'var(--light-slate)',
-      fontSize: '16px',
+      fontSize: '15px',
     },
 
     imgProject: {
@@ -112,66 +112,48 @@ const styles = {
   skillItem: {
     marginRight: '15px',
     marginBottom: "0px",
-    fontSize: '14px',
+    fontSize: '13px',
     lineHeight: '1.75',
     //fontFamily: 'var(--font-mono)',
     //fontFamily: '"Questrial", sans-serif',
     listStyle: 'none',
 },
-
-    lang: {
-/*         display: 'inline-flex',*/
-	    width: '100%',
-	    justifyContent: 'flex-start',
-	    listStyleType: 'none',
-	    fontSize: '14px',
-        fontFamily: "'Questrial', sans-serif", 
-        display: 'flex',
-        flexWrap: 'wrap',
-        lineHeight: '1.2rem',
-        marginTop: '1.5rem',
-    },
-    langItem: {
-        marginRight: '15px',
-		marginBottom: '0px',
-		color: '#333f58',
-    },
 }
 
 const links = [
   {
-    name: "Stocks-data",
+    name: "stocks-data",
     url: "https://github.com/kkote/stocks-data",
     description: "Historical stock data stored in a database",
     skills: ["Python", "MySQL", "AWS", "EOD Historical Data API"],
   },
   {
-    name: "Portfolio-v2",
+    name: "portfolio-v2",
     url: "https://github.com/kkote/portfolio-v2",
     demoUrl: "",
-    description: "Previous portfolio site, using API for project data",
+    description: "Version 2 portfolio, used API for projects",
     skills: ["React", "Gatsby", "GraphQL", "GitHub API"],
   },
   {
-    name: "Library-react",
+    name: "library-react",
     url: "https://github.com/kkote/library-react",
     demoUrl: "https://kkote.github.io/library-react/",
     description: "Catalog your books",
     skills: ["JavaScript", "React", "Google Books API"],
   },
   {
-    name: "Weather-app",
+    name: "weather-app",
     url: "https://github.com/kkote/weather-app",
     demoUrl: "https://weather-style-guide.herokuapp.com/",
     description: "Temperature based apparel suggestions",
-    skills: ["JavaScript", "React", "Open Weather API", "Material-UI"],
+    skills: ["JavaScript", "React", "Open Weather API"],
   },
   {
     name: "bf-calc-react",
     url: "https://github.com/kkote/bf-calc-react",
     demoUrl: "https://kkote.github.io/bf-calc-react/",
-    description:  "Calculates fitness stats using body measurements",
-    skills: ["JavaScript", "React", "Bootstrap"],
+    description:  "Calculates body stats using measurements",
+    skills: ["JavaScript", "React"],
   },
   {
     name: "library-jquery",
