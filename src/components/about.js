@@ -50,15 +50,15 @@ export const About = () => (
         <p>Technologies I've been working with:</p>
         <div>
           <ul style={styles.list} >
-            <li>JavaScript (ES6+)</li>
-            <li>React </li>
-            <li>jQuery</li>
-            <li>HTML5 / CSS3</li>
-            <li>Bootstrap</li>
-            <li>Material-UI</li>
             <li>Python</li>
-            <li>MySQL</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>SQL</li>
+            <li>TestComplete</li>
             <li>AWS</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Material-UI</li>
           </ul>
         </div>
       </div>

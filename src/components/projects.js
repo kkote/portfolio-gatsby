@@ -96,6 +96,7 @@ const styles = {
     imgProject: {
       height: '30px',
 		  width: '30px',
+      marginBottom: "5px",
 		  filter: 'saturate(100%) hue-rotate(-75deg)',
     },
     skillGroup: {
