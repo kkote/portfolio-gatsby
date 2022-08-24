@@ -7,23 +7,12 @@ import {
 
 const styles = {
     section: {
-/*         paddingBottom     : "2rem",
-        backgroundSize    : "contain",
-        backgroundPosition: "right top",
-        backgroundRepeat  : "no-repeat" */
         background: 'var(--background-color)',
         height: 'auto',
         scrollMarginTop: '60px',
         width: '100%',
     },
     wrapper: {
-/*         maxWidth      : "1280px",
-        margin        : "0 auto",
-        width         : "90%",
-        padding       : "4rem 0",
-        display       : "flex",
-        alignItems    : "center",
-        justifyContent: "space between" */
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

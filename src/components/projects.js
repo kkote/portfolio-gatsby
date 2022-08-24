@@ -6,9 +6,10 @@ import {
 } from './intro' */
 import githubIcon from '../assets/github.svg'
 import openIcon from '../assets/open_in_browser-24px.svg'
+import JSONData from "../content/projectInfo.json"
 
 const Skills = props => {
-    const projectName = props.skills
+    //const projectName = props.skills
     const skillsUsed = props.skills || ['HTML', 'CSS', 'Bootstrap']
   
     return (
@@ -19,6 +20,8 @@ const Skills = props => {
       </ul>
     )
   }
+
+
 
 const styles = {
   section: {
@@ -65,7 +68,6 @@ const styles = {
       justifyContent: 'space-between',
       MozBoxAlign: 'center',
       alignItems: 'center',
-      /* marginBottom: '35px', */
     },
     linksRight: {
       display: 'flex',
@@ -120,7 +122,7 @@ const styles = {
 },
 }
 
-const links = [
+/* const links = [
   {
     name: "stocks-data",
     url: "https://github.com/kkote/stocks-data",
@@ -162,30 +164,46 @@ const links = [
     description: "Previous version of library-react",
     skills: ["JavaScript", "jQuery", "Google Books API"],
   },
-]
+] */
 
 
 const Projects = () => (
   <section id="projects" style={styles.section}>
     <h2 style={styles.title}>Projects</h2>
     <div style={styles.grid}>
-      {links.map(link => (
-        <div key={link.name} style={styles.projectWrapper} >
+      {JSONData.content.map(link => (
+        <div key={link.name} style={styles.projectWrapper}>
           <header style={styles.header}>
             <div style={styles.projectLinks}>
               <div></div>
               <div style={styles.linksRight}>
                 {link.demoUrl ? (
-                  <a style={styles.link} href={link.demoUrl} target="_blank" rel="noopener noreferrer" >
-                    <img style={styles.imgProject} src={openIcon} alt="Open Icon" />
-                  </a>) : (<a href="" />)}
-                <a style={styles.link} href={link.url} target="_blank" rel="noopener noreferrer">
-                  <img style={styles.imgProject} src={githubIcon} alt="GitHub Icon" />
+                  <a style={styles.link}
+                      href={link.demoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                    <img  style={styles.imgProject} src={openIcon} alt="Open Icon"/>
+                  </a>
+                ) : (
+                  <a  style={{ display: `none` }}
+                      href="https://github.com/kkote"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                    Github
+                  </a>
+                )}
+                <a  style={styles.link}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                  <img style={styles.imgProject} src={githubIcon} alt="GitHub Icon"/>
                 </a>
               </div>
             </div>
             <h3 style={styles.projectName}>{link.name}</h3>
-            <div style={styles.projectDesc}><p>{link.description}</p></div>
+            <div style={styles.projectDesc}>
+              <p>{link.description}</p>
+            </div>
           </header>
           <footer>
             <Skills skills={link.skills} />
