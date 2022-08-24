@@ -41,7 +41,7 @@ const styles = {
     },
     
     projectWrapper: {
-      boxShadow: '0 5px 15px lightgray',
+      boxShadow: '0 5px 15px rgba(0, 0, 0, 0.11)',
       display: 'flex',
       MozBoxPack: 'justify',
       justifyContent: 'space-between',
@@ -90,7 +90,7 @@ const styles = {
     },
     projectDesc: {
       color: 'var(--light-slate)',
-      fontSize: '17px',
+      fontSize: '16px',
     },
 
     imgProject: {
@@ -112,9 +112,10 @@ const styles = {
   skillItem: {
     marginRight: '15px',
     marginBottom: "0px",
-    fontSize: 'var(--fz-xxs)',
+    fontSize: '14px',
     lineHeight: '1.75',
-    fontFamily: 'var(--font-mono)',
+    //fontFamily: 'var(--font-mono)',
+    //fontFamily: '"Questrial", sans-serif',
     listStyle: 'none',
 },
 
