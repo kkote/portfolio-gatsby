@@ -1,7 +1,5 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
-
 
 const styles = {
   header: {
@@ -37,6 +35,9 @@ const styles = {
     position: 'relative',
     userSelect: 'auto !important',
     zIndex: '13',
+    maxWidth: 'clamp(0px, (100vw - 500px) * 1000, 100%)',
+    maxHeight: 'clamp(0px, (100vw - 500px) * 1000, 1000px)',
+    overflow: 'hidden',
   },
   navbar: {
     alignItems: 'center',
@@ -57,12 +58,13 @@ const styles = {
     textDecoration: 'none',
     textDecorationSkipInk: 'auto',
   }
+
 }
 
 const Header = ({ siteTitle }) => (
   <header style={styles.header}>
     <div style={styles.wrapper}>
-      <a style={styles.a}>
+      <a style={styles.a} href="/#projects">
         <div style={styles.title}>Portfolio</div>
       </a>
       <nav style={styles.navbar}>

@@ -38,13 +38,14 @@ const styles = {
     grid: {
 	    display: 'grid',
         alignItems: 'center',
-        gridTemplateColumns: 'repeat(3, 1fr)',
+        //gridTemplateColumns: 'repeat(3, 1fr)',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(18em, 1fr))',
         gridTemplateRows: '8fr',
         gap: '1.2rem 1.2rem',
     },
     
     projectWrapper: {
-      boxShadow: '0 5px 15px rgba(0, 0, 0, 0.11)',
+      boxShadow: '0 5px 15px rgba(0, 0, 0, 0.22)',
       display: 'flex',
       MozBoxPack: 'justify',
       justifyContent: 'space-between',
@@ -58,6 +59,7 @@ const styles = {
       backgroundColor: 'var(--light-navy)',
       transition: 'var(--transition)',
       overflow: 'auto',
+      width: "95%"
     },
     header: {
 	    width:"100%"
