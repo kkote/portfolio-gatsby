@@ -34,26 +34,32 @@ export const About = () => (
     <div>
       <div>
         <p>
-            I’m a JavaScript and Python Developer with 2+ years in quality assurance. 
-            Three years experience programming include test automation, a stock data project, and 
-            developing 4 front-end web applications with React.
+            I’m a developer with unique combination of technical experience using JavaScript and Python. 
         </p>
         <p>
-            During my time as a software tester, I would analyze results of automated nightly tests, 
-            verify results, investigate issues, report bugs, improve test framework, repair and add new test scripts.
+        Some of the work I've done so far:  
         </p>
         <p>
-            I’m passionate about learning, and enjoy taking on a challenge. 
-            This has pushed me to continue growing in different areas of programming, and take interest in database/data analytics.
+        * 2+ years as a software tester, where I would analyze results of 1100+ automated nightly tests, verify results, investigate issues, report bugs, improve test framework, repair and add new test scripts.
+        </p>
+        <p>
+        * Self teaching myself front-end web development, and specializing in JavaScript and React. Resulting in the development of a portfolio site and 4 front-end applications.
+        </p>
+        <p>
+        * Working on a freelance data project, where I created Python scripts to fetch API data, connect to databases, and construct queries to MySQL. Additionally, set up storage and hosting with AWS.
+        </p>
+        <p>
+            I’m passionate about learning, and thrive when taking on a challenge. 
+            This has pushed me to continue growing in different areas of programming, and take interest in range of technical fields.
             Currently taking an "Data Analysis and Visualization Foundations Specialization '' on Coursera.
         </p>
-        <p>Technologies I've been working with:</p>
+        <p>Technologies I've worked with:</p>
         <div>
           <ul style={styles.list} >
             <li>Python</li>
             <li>JavaScript</li>
             <li>React</li>
-            <li>SQL</li>
+            <li>MySQL</li>
             <li>TestComplete</li>
             <li>AWS</li>
             <li>HTML5</li>
