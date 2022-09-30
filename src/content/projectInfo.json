@@ -3,11 +3,12 @@
         {
             "name": "stocks-data",
             "url": "https://github.com/kkote/stocks-data",
-            "description": "Historical stock data stored in a database",
+            "description": "Uses data from 2 APIs to extract historical stock data, loaded into database and hosted on AWS.",
             "skills": [
                 "Python",
                 "MySQL",
-                "AWS",
+                "AWS RDS",
+                "AWS EC2",
                 "EOD Historical Data API"
             ]
         },
@@ -15,55 +16,67 @@
             "name": "portfolio-v2",
             "url": "https://github.com/kkote/portfolio-v2",
             "demoUrl": "",
-            "description": "Version 2 portfolio, used API for projects",
+            "description": "Previous portfolio site (version 2). Projects displayed using the last six repos updated on Github.",
             "skills": [
+                "JavaScript",
                 "React",
                 "Gatsby",
                 "GraphQL",
-                "GitHub API"
+                "GitHub API",
+                "Netlify "
             ]
         },
         {
             "name": "library-react",
             "url": "https://github.com/kkote/library-react",
             "demoUrl": "https://kkote.github.io/library-react/",
-            "description": "Catalog your books",
+            "description": "Digital Library: Search for a book by title, view info, add to list, or remove current books.",
             "skills": [
                 "JavaScript",
                 "React",
-                "Google Books API"
+                "Google Books API",
+                "Material-UI",
+                "CSS"
             ]
         },
         {
             "name": "weather-app",
             "url": "https://github.com/kkote/weather-app",
             "demoUrl": "https://weather-style-guide.herokuapp.com/",
-            "description": "Temperature based apparel suggestions",
+            "description": "Weather Style Guide: Input location to get temperature based apparel suggestions.",
             "skills": [
                 "JavaScript",
                 "React",
-                "Open Weather API"
+                "Open Weather API",
+                "Material-UI",
+                "Heroku"
             ]
         },
         {
             "name": "bf-calc-react",
             "url": "https://github.com/kkote/bf-calc-react",
             "demoUrl": "https://kkote.github.io/bf-calc-react/",
-            "description": "Calculates body stats using measurements",
+            "description": "Body Stat Calculator: Uses measurements to display BMI, TDEE, and body fat percentage.",
             "skills": [
                 "JavaScript",
-                "React"
+                "React",
+                "Bootstrap",
+                "HTML",
+                "CSS"
             ]
         },
         {
             "name": "library-jquery",
             "url": "https://github.com/kkote/library-jquery",
             "demoUrl": "https://kkote.github.io/library-jquery/",
-            "description": "Previous version of library-react",
+            "description": "Original version of library-react",
             "skills": [
                 "JavaScript",
                 "jQuery",
-                "Google Books API"
+                "Google Books API",
+                "Bootstrap",
+                "HTML",
+                "CSS"
             ]
         }
     ]

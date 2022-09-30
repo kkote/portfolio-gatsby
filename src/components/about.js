@@ -34,37 +34,41 @@ export const About = () => (
     <div>
       <div>
         <p>
-            I’m a developer with unique combination of technical experience using JavaScript and Python. 
+            I’m a developer with a unique combination of experience using JavaScript and Python for software testing, web applications, and data processes.
         </p>
         <p>
-        Some of the work I've done so far:  
+        Some things I’ve done so far: 
         </p>
+        <ul>
+        <li>
+        Worked as a software tester for over 2 years, automated GUI tests, analyzed results of 1100+ automated nightly tests, updated test framework after new features, and fixed individual tests.
+        </li>
+        <li>
+        Built front-end applications and portfolio websites using skills learned as a self-taught web developer. Started with simple jQuery websites and now specialized in React.
+        </li>
+        <li>
+        Took on a freelance data project, developed Python scripts to extract API stock data and load into a MySQL database. Set up storage and hosting with AWS.
+        </li>
+        </ul>
         <p>
-        * 2+ years as a software tester, where I would analyze results of 1100+ automated nightly tests, verify results, investigate issues, report bugs, improve test framework, repair and add new test scripts.
+            I’m passionate about continuous learning, and thrive in challenging environments. 
+            Enjoy applying technical skills in new or interesting projects.
         </p>
-        <p>
-        * Self teaching myself front-end web development, and specializing in JavaScript and React. Resulting in the development of a portfolio site and 4 front-end applications.
-        </p>
-        <p>
-        * Working on a freelance data project, where I created Python scripts to fetch API data, connect to databases, and construct queries to MySQL. Additionally, set up storage and hosting with AWS.
-        </p>
-        <p>
-            I’m passionate about learning, and thrive when taking on a challenge. 
-            This has pushed me to continue growing in different areas of programming, and take interest in range of technical fields.
-            Currently taking an "Data Analysis and Visualization Foundations Specialization '' on Coursera.
-        </p>
+        
         <p>Technologies I've worked with:</p>
         <div>
           <ul style={styles.list} >
-            <li>Python</li>
+            
             <li>JavaScript</li>
             <li>React</li>
+            <li>GraphQL</li>
+            <li>Python</li>
             <li>MySQL</li>
+            <li>Web APIs</li>
             <li>TestComplete</li>
-            <li>AWS</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Material-UI</li>
+            <li>Test Automation</li>
+            <li>AWS RDS & EC2</li>
+            
           </ul>
         </div>
       </div>
