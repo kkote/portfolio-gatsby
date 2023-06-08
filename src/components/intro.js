@@ -35,7 +35,6 @@ const styles = {
     },
     job: {
         fontSize: '2rem',
-        lineHeight: '3rem',
         margin: "-.5rem 0 0", 
         lineHeight: '1.7',
     },
@@ -59,7 +58,6 @@ const styles = {
         color: 'var(--primary-color)',
         fontSize: '1rem',
         height: 'auto',
-        marginRight: '.5rem',
         padding: '.3rem 1rem',
         transition: 'all .1s ease-out',
         width: 'auto',
@@ -80,8 +78,8 @@ const Intro = () => (
         I build automated tests and develop front-end web applications.
       </p>
       <div style={styles.linkGroup}>
-        <a style={styles.link}>Github</a>
-        <a style={styles.link}>LinkedIn</a>
+        <a style={styles.link} href="https://github.com/kkote">Github</a>
+        <a style={styles.link} href="http://www.linkedin.com/in/kkote">LinkedIn</a>
       </div>
     </div>
   </section>
