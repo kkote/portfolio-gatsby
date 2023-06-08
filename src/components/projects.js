@@ -124,51 +124,6 @@ const styles = {
 },
 }
 
-/* const links = [
-  {
-    name: "stocks-data",
-    url: "https://github.com/kkote/stocks-data",
-    description: "Historical stock data stored in a database",
-    skills: ["Python", "MySQL", "AWS", "EOD Historical Data API"],
-  },
-  {
-    name: "portfolio-v2",
-    url: "https://github.com/kkote/portfolio-v2",
-    demoUrl: "",
-    description: "Version 2 portfolio, used API for projects",
-    skills: ["React", "Gatsby", "GraphQL", "GitHub API"],
-  },
-  {
-    name: "library-react",
-    url: "https://github.com/kkote/library-react",
-    demoUrl: "https://kkote.github.io/library-react/",
-    description: "Catalog your books",
-    skills: ["JavaScript", "React", "Google Books API"],
-  },
-  {
-    name: "weather-app",
-    url: "https://github.com/kkote/weather-app",
-    demoUrl: "https://weather-style-guide.herokuapp.com/",
-    description: "Temperature based apparel suggestions",
-    skills: ["JavaScript", "React", "Open Weather API"],
-  },
-  {
-    name: "bf-calc-react",
-    url: "https://github.com/kkote/bf-calc-react",
-    demoUrl: "https://kkote.github.io/bf-calc-react/",
-    description:  "Calculates body stats using measurements",
-    skills: ["JavaScript", "React"],
-  },
-  {
-    name: "library-jquery",
-    url: "https://github.com/kkote/library-jquery",
-    demoUrl: "https://kkote.github.io/library-jquery/",
-    description: "Previous version of library-react",
-    skills: ["JavaScript", "jQuery", "Google Books API"],
-  },
-] */
-
-
 const Projects = () => (
   <section id="projects" style={styles.section}>
     <h2 style={styles.title}>Projects</h2>

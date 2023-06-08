@@ -1,9 +1,7 @@
 import React from 'react'
 /* import { Header } from 'components/theme'
 import { Container, Button } from 'components/common'
-import {
-    Wrapper,IntroWrapper,Details,FirstLine,SecondLine,ThirdLine,FourthLine,Contact,
-} from './intro' */
+*/
 
 const styles = {
     section: {
@@ -19,12 +17,12 @@ const styles = {
 	    padding: "4rem 0"
     },
     list: {
-        listStyleType: "circle",
+/*         listStyleType: "circle",
         columns: "3",
         paddingKeft: "1.2rem",
-        color: "#707070"
+        color: "#707070",
+        marginBottom: ".2rem" */
     },
-
 };
 
 
@@ -34,20 +32,20 @@ export const About = () => (
     <div>
       <div>
         <p>
-            I’m a developer with a unique combination of experience using JavaScript and Python for software testing, web applications, and data processes.
+        I am a developer with a unique blend of experience in using JavaScript and Python for software testing, web applications, and data processes. I am passionate about continuous learning and thrive in challenging environments. I enjoy applying my technical skills to new and interesting projects.
         </p>
         <p>
-        Some things I’ve done so far: 
+        Some highlights of my experience:
         </p>
         <ul>
         <li>
-        Worked as a software tester for over 2 years, automated GUI tests, analyzed results of 1100+ automated nightly tests, updated test framework after new features, and fixed individual tests.
+        <b>Software Testing</b>: I have over 2 years of experience working as a software tester. In this role, I automated GUI tests and analyzed the results of more than 1100 automated nightly tests. I also updated the test framework to accommodate new features and fixed individual tests to ensure their accuracy.
         </li>
         <li>
-        Built front-end applications and portfolio websites using skills learned as a self-taught web developer. Started with simple jQuery websites and now specialized in React.
+        <b>Web Development</b>: As a self-taught web developer, I have built front-end applications and portfolio websites. I started with simple jQuery websites and have since specialized in React, a powerful JavaScript framework. I believe in creating user-friendly and visually appealing web experiences.
         </li>
         <li>
-        Took on a freelance data project, developed Python scripts to extract API stock data and load into a MySQL database. Set up storage and hosting with AWS.
+        <b>Data Project</b>: I took on a freelance data project where I developed Python scripts to extract API stock data and load it into a MySQL database. Additionally, I set up storage and hosting using AWS, ensuring efficient data management and access.
         </li>
         </ul>
         <p>
@@ -59,15 +57,14 @@ export const About = () => (
         <div>
           <ul style={styles.list} >
             
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>GraphQL</li>
-            <li>Python</li>
-            <li>MySQL</li>
-            <li>Web APIs</li>
-            <li>TestComplete</li>
-            <li>Test Automation</li>
-            <li>AWS RDS & EC2</li>
+            <li><b>JavaScript</b>: Proficient in using to create test automations and dynamic web applications.</li>
+            <li><b>React</b>: Specialized in building modern and scalable user interfaces using React.</li>
+            <li><b>GraphQL</b>: Experience in utilizing GraphQL to efficiently fetch and manipulate data.</li>
+            <li><b>Python</b>: Skilled in developing scripts and applications for various data-related tasks.</li>
+            <li><b>MySQL</b>: Familiar with MySQL database management and querying data.</li>
+            <li><b>Web APIs</b>: Experience in working with different web APIs to retrieve and process data.</li>
+            <li><b>Test Automation</b>: Proficient in using TestComplete(Similar to Selenium) for automated software testing.</li>
+            <li><b>AWS RDS & EC2</b>: Experience in setting up and managing AWS RDS (Relational Database Service) and EC2 (Elastic Compute Cloud) for data storage and hosting.</li>
             
           </ul>
         </div>
