@@ -3,7 +3,7 @@
         {
             "name": "stocks-data",
             "url": "https://github.com/kkote/stocks-data",
-            "description": "Uses data from 2 APIs to extract historical stock data, loaded into database and hosted on AWS.",
+            "description": "Data extracted from EOD API, loaded to database, and storage/hosting set up with AWS for efficient data management.",
             "skills": [
                 "Python",
                 "MySQL",
@@ -16,7 +16,7 @@
             "name": "portfolio-v2",
             "url": "https://github.com/kkote/portfolio-v2",
             "demoUrl": "",
-            "description": "Previous portfolio site (version 2). Projects displayed using the last six repos updated on Github.",
+            "description": "Dynamic display of 6 recent projects with links for project details and live demos.",
             "skills": [
                 "JavaScript",
                 "React",
@@ -30,7 +30,7 @@
             "name": "library-react",
             "url": "https://github.com/kkote/library-react",
             "demoUrl": "https://kkote.github.io/library-react/",
-            "description": "Digital Library: Search for a book by title, view info, add to list, or remove current books.",
+            "description": "Web app for users to catalog, manage, search, view details, and add books to their personal collection.",
             "skills": [
                 "JavaScript",
                 "React",
@@ -42,8 +42,8 @@
         {
             "name": "weather-app",
             "url": "https://github.com/kkote/weather-app",
-            "demoUrl": "https://weather-style-guide.herokuapp.com/",
-            "description": "Weather Style Guide: Input location to get temperature based apparel suggestions.",
+            "demoUrl": "",
+            "description": "Fetches weather data, recommends clothing, enhances UX with forecasts and real-time suggestions.",
             "skills": [
                 "JavaScript",
                 "React",
@@ -56,7 +56,7 @@
             "name": "bf-calc-react",
             "url": "https://github.com/kkote/bf-calc-react",
             "demoUrl": "https://kkote.github.io/bf-calc-react/",
-            "description": "Body Stat Calculator: Uses measurements to display BMI, TDEE, and body fat percentage.",
+            "description": "Web tool calculates and displays fitness stats (BMI, body fat %, lean body mass) for valuable user insights on fitness progress.",
             "skills": [
                 "JavaScript",
                 "React",
@@ -69,7 +69,7 @@
             "name": "library-jquery",
             "url": "https://github.com/kkote/library-jquery",
             "demoUrl": "https://kkote.github.io/library-jquery/",
-            "description": "Original version of library-react",
+            "description": "Original version of library-react, migration included a full rewrite of code to follow better coding standards.",
             "skills": [
                 "JavaScript",
                 "jQuery",

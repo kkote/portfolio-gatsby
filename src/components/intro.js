@@ -73,9 +73,9 @@ const Intro = () => (
   <section style={styles.section}>
     <div style={styles.wrapper}>
       <h1 style={styles.name}>Hi, I'm Kate.</h1>
-      <h2 style={styles.job}>A Developer and Test Analyst.</h2>
+      <h2 style={styles.job}>A Test Analyst and Developer.</h2>
       <p style={styles.desc}>
-        I build automated tests and develop front-end web applications.
+      I specialize in building automated tests and crafting front-end web applications.
       </p>
       <div style={styles.linkGroup}>
         <a style={styles.link} href="https://github.com/kkote">Github</a>
